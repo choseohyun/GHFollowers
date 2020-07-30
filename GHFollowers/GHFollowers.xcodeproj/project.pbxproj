@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3B1475DB24D307D100C74E21 /* ErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1475DA24D307D100C74E21 /* ErrorMessage.swift */; };
 		3B21CC3E23F2FE4500F7851C /* GFButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B21CC3D23F2FE4500F7851C /* GFButton.swift */; };
 		3B21CC4023F3013A00F7851C /* GFTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B21CC3F23F3013A00F7851C /* GFTextField.swift */; };
 		3B85285C23CCB6F6004191B2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B85285B23CCB6F6004191B2 /* AppDelegate.swift */; };
@@ -26,6 +27,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3B1475DA24D307D100C74E21 /* ErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorMessage.swift; sourceTree = "<group>"; };
 		3B21CC3D23F2FE4500F7851C /* GFButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFButton.swift; sourceTree = "<group>"; };
 		3B21CC3F23F3013A00F7851C /* GFTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GFTextField.swift; sourceTree = "<group>"; };
 		3B85285823CCB6F6004191B2 /* GHFollowers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GHFollowers.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -57,6 +59,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3B1475D924D307B700C74E21 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3B1475DA24D307D100C74E21 /* ErrorMessage.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
 		3B85284F23CCB6F6004191B2 = {
 			isa = PBXGroup;
 			children = (
@@ -76,6 +86,7 @@
 		3B85285A23CCB6F6004191B2 /* GHFollowers */ = {
 			isa = PBXGroup;
 			children = (
+				3B1475D924D307B700C74E21 /* Utilities */,
 				3BBD5F5C244CABB8004CB001 /* Managers */,
 				3BBD5F57244C8BEB004CB001 /* Model */,
 				3BBD5F55244C887E004CB001 /* Extensions */,
@@ -228,6 +239,7 @@
 				3BBD5F5E244CABCF004CB001 /* NetworkManager.swift in Sources */,
 				3BBD5F4A24436CF6004CB001 /* FollowerListVC.swift in Sources */,
 				3B85285C23CCB6F6004191B2 /* AppDelegate.swift in Sources */,
+				3B1475DB24D307D100C74E21 /* ErrorMessage.swift in Sources */,
 				3B85285E23CCB6F6004191B2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
